@@ -1,10 +1,11 @@
 import React from "react";
-import { Text, Touchable, View } from "react-native";
+import { SafeAreaView, Text, Touchable, View } from "react-native";
+import { HeaderTabs } from "../components/HeaderTabs";
 
 export const Home = () => {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <SafeAreaView>
+      <HeaderTabs />
+    </SafeAreaView>
   );
 };
